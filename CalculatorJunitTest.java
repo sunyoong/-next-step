@@ -27,6 +27,12 @@ public class CalculatorJunitTest
         assertEquals(10, cal.add(2, 7));
     }
     
+    @Test
+    public void substract1() {
+        Calculator cal = new Calculator();
+        assertEquals(15, cal.substract(30, 15));
+    
+    }
     
     
 }
